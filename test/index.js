@@ -1,4 +1,16 @@
+/**
+ * Imports
+ */
 
-var assert = require('assert');
+var asArray = require('..')
+var test = require('tape')
 
-describe('to-array', function(){});
+/**
+ * Tests
+ */
+
+test('should work', function (t) {
+  t.deepEqual(asArray(1), [1])
+  t.deepEqual(asArray([1]), [1])
+  t.end()
+})

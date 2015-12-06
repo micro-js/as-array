@@ -1,5 +1,5 @@
 {
-  "name": "as-array",
+  "name": "@micro-js/as-array",
   "description": "Ensure a value is an array.  If it&#x27;s a scalar, return ne.",
   "repository": "git://github.com/micro-js/as-array.git",
   "version": "0.0.0",
@@ -7,6 +7,6 @@
   "main": "lib/index.js",
   "dependencies": {},
   "devDependencies": {
-    "mocha": "2.x"
+    "tape": "*"
   }
 }
